@@ -15,6 +15,19 @@ margin: 0 100px;
     color: #FF5400
   }
 
+  .common-header{
+    color: #131318;
+font-size: 2.5rem;
+font-weight: 800;
+  }
+
+  .small-text{
+    color: rgba(19, 19, 24, 0.70);
+font-size: 1rem;
+font-weight: 400;
+line-height: 26px;
+  }
+
   /* navigation */
 
   nav{
@@ -34,7 +47,7 @@ margin: 0 100px;
 height: 56.008px;
   }
 
-  .header-title{
+  .nav-title{
     color: #131318;
 font-size: 2.25rem;
 font-weight: 800;
@@ -54,4 +67,163 @@ margin-left: 20px;
 nav li a {
     text-decoration: none;
     color: #424247;
+}
+
+/* banner-section */
+
+.banner{
+    background-image: url(./Images/Group13.png);
+    height: 500px;
+    width: 100%;
+    background-size: contain;
+    background-repeat: no-repeat;
+    overflow: hidden;
+    margin-top: 50px;
+}
+.banner-content{
+    text-align: center;
+    padding: 0px 200px;
+    margin: 80px 0;
+}
+.banner-header{
+    color: #FFF;
+font-size: 4rem;
+font-weight: 800;
+padding: 0;
+margin-top: 50px;
+margin-bottom: 0;
+}
+
+.banner-description{
+    color: #FFF;
+font-size: 1rem;
+font-weight: 400;
+margin-top: 25px;
+}
+
+.banner-form {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 24px;
+    margin-top: 70px;
+    margin-bottom: 50px;
+padding: 16px;
+gap: 24px;
+    border-radius: 8px;
+background: rgba(255, 255, 255, 0.30);
+}
+
+.form {
+    width: 174px;
+height: 52px;
+border: 0;
+border-radius: 8px;
+background: #FFF;
+}
+
+.btn-primary{
+    width: 174px;
+height: 52px;
+border: 0;
+border-radius: 8px;
+background: #FF5400;
+color: #FFF;
+font-size: 1.25rem;
+font-weight: 700;
+}
+
+/* Popular tour section  */
+.popular-tour{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 80px;
+    margin-top: 100px;
+}
+
+.popular-tour img{
+    height: 720px;
+    width: 550px;
+}
+
+.btn-popular{
+    width: 174px;
+    height: 52px;
+    border: 0;
+    border-radius: 8px;
+    background: #FF5400;
+    color: #FFF;
+    font-size: 1.25rem;
+    font-weight: 700;
+}
+
+
+
+
+/* responsive styles */
+
+@media screen and (max-width: 600px) {
+body{
+    margin: 5px;
+}
+    nav, .banner-form{
+        flex-direction: column;
+    }
+
+    nav ul{
+        display: none;
+    }
+    .nav-title{
+        font-size: 1.3rem;
+    }
+    .title{
+        justify-content: start;
+        align-items: start;
+        padding-right: 163px;
+    }
+
+    .banner {
+        background-size: cover;
+        background-position: center;
+        margin-top: 0;
+    }
+    .banner-header{
+font-size: 1.375rem;
+padding: 0px;
+margin-top: 35px;
+    }
+    .banner-content{
+    margin: 0;
+    padding: 0;
+    }
+
+    .banner-form{
+        gap: 12px;
+        margin: 10px;
+    
+    }
+    .form, .btn-primary{
+        width: 100%;
+    }
+
+    /* popular tour section  */
+    .popular-tour{
+        flex-direction: column;
+    }
+    .popular-tour-text{
+        text-align:left;
+        padding-left: 5px;
+    }
+    .popular-tour img{
+       width: 100%;
+       height: 100%;
+    }
+
+}
+
+/* large device */
+
+@media screen and (min-width: 992px) {
+    
 }
