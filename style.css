@@ -197,11 +197,72 @@ font-weight: 700;
 }
 
 
+/* why-choose-us section  */
 
+.why-choose-us{
+    margin-top: 100px;
+}
 
+.choose-text{
+    text-align: center;
+}
+.card-header{
+    color: #131318;
+font-size: 1.5rem;
+font-weight: 700;
+}
+.card-text{
+    color: #5A5A5D;
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 26px;
+}
 
+.choose-cards{
+    margin-top: 30px;
+}
+.choose-cards{
+   display: grid;
+   grid-template-columns: repeat(2, 1fr);
+   gap: 20px;
+  
+}
 
+.card3{
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    
+}
 
+.hotel-card{
+    border-radius: 16px;
+border: 1px solid rgba(251, 181, 99, 0.20);
+background: rgba(251, 181, 99, 0.05);
+padding: 40px 50px 30px 30px;
+
+/* height: 284px; */
+}
+
+.service-card{
+    border-radius: 16px;
+border: 1px solid rgba(41, 206, 246, 0.20);
+background: rgba(41, 206, 246, 0.05);
+padding: 40px 50px 30px 30px;
+
+/* height: 284px; */
+
+}
+
+.price-card{
+    border-radius: 16px;
+border: 1px solid rgba(233, 68, 68, 0.20);
+background: rgba(233, 68, 68, 0.05);
+padding: 40px 50px 15px 30px;
+width: 450px;
+height: 284px;
+margin-top: 20px;
+}
 
 
 
@@ -269,7 +330,9 @@ margin-top: 35px;
     }
 
     /* destination-section  */
-    
+    .destination-text{
+        padding: 0 20px;
+    }
    .row-one{
     grid-template-columns: 1fr;
    }
@@ -280,6 +343,29 @@ margin-top: 35px;
         grid-template-columns: 1fr;
     }
 
+    /* why-choose-us section  */
+
+    .choose-text{
+        padding: 0 30px;
+    }
+   
+    .choose-cards{
+        grid-template-columns: 1fr;
+        
+
+    }
+
+    .hotel-card, .service-card {
+       
+        padding: 20px;
+      margin: 5px;
+    }
+  .card3{
+    margin: 5px;
+  }
+
+    
+  
 }
 
 /* large device */
