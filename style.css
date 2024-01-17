@@ -198,7 +198,20 @@ font-weight: 700;
     grid-template-columns: 1fr 1.25fr;
     gap: 15px;
 }
+.row{
+    position: relative;
+}
 
+.d-text{
+    color: #FFF;
+text-align: center;
+font-size: 1.75rem;
+font-weight: 700;
+position: absolute;
+top: 50%;
+left: 40%;
+
+}
 
 /* why-choose-us section  */
 
@@ -282,6 +295,63 @@ width: 600px;
 }
 
 
+
+/* adventure section  */
+.adventure{
+    margin-top: 100px;
+}
+.adventure > .common-header{
+text-align: center;
+}
+
+.adventure img{
+
+    border-radius: 10px;
+}
+
+.canal, .sailing, .camping, .hiking, .scuba-diving {
+    position: relative;
+}
+
+.adventure-images{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+.adventure-others{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 30px;
+}
+
+
+.canal-text{
+    position: absolute;
+    bottom: 0px;
+    background-color:rgba(255, 255, 255, 0.90);
+    padding: 0 20px;
+    border-radius: 0 10px;
+    overflow: hidden;
+    width: 239px;
+height: 91px;
+}
+
+.adventure-small-header{
+    color: #000;
+font-size: 0.87rem;
+font-weight: 400;
+}
+.adventure-small-text{
+    color: #000;
+font-size: 0.62rem;
+}
+
+
+
+
+
+
+
+
 /* newsletter section  */
 
 .newsletter{
@@ -325,6 +395,9 @@ height: 52px;
     font-size: 1.25rem;
     font-weight: 700;
 }
+.offer-div{
+    position: relative;
+}
 .offer{
     width: 324px;
 height: 120px;
@@ -332,10 +405,13 @@ height: 120px;
 transform: rotate(-19.628deg);
 border-radius: 16px;
 background: #FF5400;
-position: relative;
+position: absolute;
+bottom: 60px;
+right: 20px;
+/* position: relative;
 left: 725px;
 bottom: 195px;
-z-index: 1;
+z-index: 1; */
 }
 .offer-title{
     color: #FFF;
@@ -511,6 +587,20 @@ margin-top: 35px;
     width: 100%;
     height: 100%;
 }
+
+ /* adventure section  */
+
+ .adventure-images{
+grid-template-columns: 1fr;
+gap: 20px;
+ }
+.adventure-others{
+    grid-template-columns: 1fr;
+    gap: 20px;
+}
+
+
+
   /* newsletter section  */
 
   .newsletter{
@@ -521,9 +611,10 @@ margin-top: 35px;
 }
   .offer{ 
    
-    position: relative;
-left: 70px;
-bottom: 190px;
+    height: 150px;
+    width: 140px;
+    padding: 0;
+    bottom: 20px;
   }
   
 /* footer section  */
@@ -540,4 +631,8 @@ footer{
 
 @media screen and (min-width: 992px) {
     
+    /* .banner{
+        margin-right: 100px;
+        margin-left: 100px;
+    } */
 }
