@@ -500,12 +500,12 @@ body{
         flex-direction: row;
         justify-content:space-between;
         align-items: center;
-        padding-right: 163px;
+        padding-right: 136px;
     }
     .nav-icon{
         display: block;
         position: absolute;
-        padding-left: 320px;
+        padding-left: 240px;
     }
 
     .banner {
