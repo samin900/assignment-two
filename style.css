@@ -294,6 +294,21 @@ height: 510px;
 width: 600px;
 }
 
+.simple-place-img{
+    position: relative;
+}
+.simple-place-text{
+    color: #FFF;
+    text-align: center;
+    font-size: 1.75rem;
+    font-weight: 700;
+    position: absolute;
+    top: 35%;
+    left: 11%;
+}
+
+
+
 
 
 /* adventure section  */
